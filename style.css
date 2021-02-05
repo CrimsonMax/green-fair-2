@@ -57,7 +57,7 @@ header {
 .adds_adress-text {
   height: 13px;
   margin: 4px 6px 4px 6px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -88,7 +88,7 @@ header {
 .adds_phone-text {
   height: 10px;
   margin: 4px 6px 4px 6px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "OpenSans", sans-serif;
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -328,7 +328,7 @@ li {
 
 .slider_button {
   cursor: pointer;
-  outline:none;
+  outline: none;
   width: 180px;
   height: 57px;
   margin: 46px 0px 158px;
@@ -354,7 +354,7 @@ li {
 
 .slider_dot {
   cursor: pointer;
-  outline:none;
+  outline: none;
   width: 13px;
   height: 13px;
   border-radius: 50%;
@@ -365,4 +365,194 @@ li {
 
 .slider_dot.active {
   background-color: #f5f5f5;
+}
+
+/* SYMBOLS */
+
+.symbol {
+  height: 645px;
+  background-color: #ffffff;
+}
+
+.symbol_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.symbol_header {
+  text-align: center;
+  margin-top: 114px;
+}
+
+.symbol_header-greet {
+  text-transform: uppercase;
+  height: 27px;
+  margin: 0 85px 35px;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #222222;
+}
+
+.symbol_header-text {
+  height: 17px;
+  margin: 35px 4px 60px 12px;
+  font-family: "OpenSans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #393939;
+}
+
+.symbol_symbols {
+  display: flex;
+  margin-bottom: 114px;
+}
+
+.symbols_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 270px;
+  margin: 0px 16px;
+}
+
+.symbols_card-logo {
+  width: 120px;
+  height: 120px;
+  padding: 38px;
+  border: solid 2px #c4c4c4;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.symbol_hover:hover .symbols_card-logo {
+  background-color: var(--main-green);
+  border-color: var(--main-green);
+}
+
+.symbol_hover:hover .logo_circle {
+  color: #fff;
+}
+
+.symbol_hover:hover .symbols_card-header {
+  color: var(--main-green);
+}
+
+.logo_circle {
+  width: 40px;
+  height: 44px;
+  font-size: 40px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #c4c4c4;
+}
+
+.water {
+  transform: scaleY(-1);
+}
+
+.symbols_card-header {
+  height: 15px;
+  margin: 34px 0px 24px 0px;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #393939;
+}
+
+.symbols_card-text {
+  height: 84px;
+  font-family: "OpenSans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #646464;
+}
+
+/* JOIN */
+
+.join {
+  height: 302px;
+  background-color: #222222;
+}
+
+.join_pos {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.join_text {
+  text-align: left;
+  margin: 100px 0;
+  width: 720px;
+}
+
+.join_text-header {
+  text-transform: uppercase;
+  font-family: "OpenSans", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.join_text-header span {
+  color: var(--main-green);
+}
+
+.join_text-info {
+  margin-top: 30px;
+  font-family: "OpenSans", sans-serif;
+  font-size: 14.5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.66;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.join_btn {
+  width: 208px;
+  height: 52px;
+  margin: 136px 0 114px 0;
+  border-radius: 2px;
+  background-color: var(--main-green);
+  font-family: "OpenSans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
 }
