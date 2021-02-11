@@ -532,7 +532,7 @@ li {
   background-color: #222222;
 }
 
-.join_pos {
+.join_container {
   height: 100%;
   display: flex;
   align-items: center;
@@ -1182,4 +1182,69 @@ li {
 
 .blog_card-button:hover {
   color: var(--main-green);
+}
+
+/* BUY */
+
+.buy {
+  height: 200px;
+  background-color: #000000;
+}
+
+.buy_container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buy_text {
+}
+
+.buy_text-header {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.buy_btn {
+  width: 211px;
+  height: 47px;
+  border-radius: 2px;
+  background-color: var(--main-green);
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+}
+
+/* LOGOS */
+
+.logos {
+  height: 200px;
+  background-color: #ffffff;
+}
+
+.logos_container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logos_pic {
+  width: 215px;
+  height: 41px;
 }
